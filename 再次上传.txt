@@ -8,4 +8,4 @@ git commit -m "gitLearnSecond"
 4.
 git remote add master git@github.com:jzb1111/gitLearn.git
 5.
-git push --set-upstream gitLearn master
+git push --set-upstream origin master
