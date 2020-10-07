@@ -1,0 +1,11 @@
+1.在github上创建repo。
+2.在本地创建要关联的文件夹。
+2.1.查看是否有rsa文件:ls ~/.ssh/
+2.2.若无，则执行：ssh-keygen -t rsa -b 2048 -C "jzb1631@163.com"
+2.3.若有，则查看github上是否已添加此key，若未添加则添加之。
+3.切到本地目录下执行：
+git init
+git add .
+git commit -m "manimLearnFirst"
+git remote add manimLearn git@github.com:jzb1111/manimLearn.git
+git push --set-upstream manimLearn master
